@@ -29,7 +29,7 @@ function Navbar() {
 		<>
 			<nav className='navbar'>
 				<div className="navbar-container">
-					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+					<Link to="/thecatsproject/" className="navbar-logo" onClick={closeMobileMenu}>
 						The Cats Project 
 						<i className="fab fa-typo3" />
 					</Link>
@@ -38,23 +38,23 @@ function Navbar() {
 					</div>
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 						<li className='nav-item'>
-							<Link to='/' className='nav-links' onClick={closeMobileMenu}>
+							<Link to='/thecatsproject/' className='nav-links' onClick={closeMobileMenu}>
 								Home
 							</Link>
 						</li>
 						<li className='nav-item'>
-							<Link to='/fame' className='nav-links' onClick={closeMobileMenu}>
+							<Link to='/thecatsproject/fame' className='nav-links' onClick={closeMobileMenu}>
 								Hall of Fame
 							</Link>
 						</li>
 						<li className='nav-item'>
-							<Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+							<Link to='/thecatproject/about' className='nav-links' onClick={closeMobileMenu}>
 								About the Project
 							</Link>
 						</li>
 						<li>
 							<Link
-								to='/pictures'
+								to='/thecatsproject/pictures'
 								className='nav-links-mobile'
 								onClick={closeMobileMenu}
 							>
@@ -62,7 +62,7 @@ function Navbar() {
 							</Link>
 						</li>
 					</ul>
-					{button && <Button buttonStyle='btn--outline' buttonLink='/pictures'>PICTURE OF CATS</Button>}
+					{button && <Button buttonStyle='btn--outline' buttonLink='/thecatsproject/pictures'>PICTURE OF CATS</Button>}
 				</div>
 			</nav>
 		</>

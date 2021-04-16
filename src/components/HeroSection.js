@@ -8,7 +8,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="/videos/main.mov"  autoPlay loop muted />
+            <video src="./videos/main.mov"  autoPlay loop muted />
             <h1> I WANT MILK</h1>  
             <p>Do you have some?</p>
             <div className="hero-btns">
@@ -16,7 +16,7 @@ function HeroSection() {
                     className='btns' 
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
-                    buttonLink='/milk'
+                    buttonLink='/thecatsproject/milk'
                 >
                    I HAVE MILK
                 </Button>

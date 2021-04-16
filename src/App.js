@@ -16,13 +16,13 @@ function App() {
         <Router>
             <Navbar />
             <Switch>
-                <Route path='/' exact component={Home} />
-                <Route path='/about' component={About} />
-                <Route path='/pictures' component={Pictures} />
-                <Route path='/feedback' component={Feedback} />
-                <Route path='/pet' component={Pet} />
-                <Route path='/ignore' component={Ignore} />
-                <Route path='/milk' component={Milk} />
+                <Route path='/thecatsproject' exact component={Home} />
+                <Route path='/thecatsproject/about' component={About} />
+                <Route path='/thecatsproject/pictures' component={Pictures} />
+                <Route path='/thecatsproject/feedback' component={Feedback} />
+                <Route path='/thecatsproject/pet' component={Pet} />
+                <Route path='/thecatsproject/ignore' component={Ignore} />
+                <Route path='/thecatsproject/milk' component={Milk} />
 
             </Switch>
         </Router>

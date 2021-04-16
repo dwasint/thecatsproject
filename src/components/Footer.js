@@ -21,7 +21,7 @@ function Footer() {
               type='feedback'
               placeholder='Enter Feedback Here'
             />
-            <Button buttonStyle='btn--outline' buttonLink='/feedback'>Submit</Button>
+            <Button buttonStyle='btn--outline' buttonLink='/thecatsproject/feedback'>Submit</Button>
           </form>
         </div>
         </section>

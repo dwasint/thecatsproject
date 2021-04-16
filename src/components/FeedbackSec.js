@@ -8,7 +8,7 @@ import './FeedbackSec.css';
 function FeedbackSec() {
     return (
         <div className='feed-container'>
-            <video src="/videos/feedback.mp4"  autoPlay />
+            <video src="./videos/feedback.mp4"  autoPlay />
             <div className="feed-btns">
             </div>
         </div>
